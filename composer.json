@@ -8,7 +8,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Inshore\\LaravelBookwhen\\": "src/"
+            "Inshore\\Bookwhen\\": "src/"
         }
     },
     "authors": [
