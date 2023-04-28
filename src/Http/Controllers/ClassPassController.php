@@ -19,6 +19,6 @@ class ClassPassController extends Controller
     {
         $classPass = Bookwhen::classPass($classPassId);
         
-        return view('bookwhen::class-passes.show', compact('classPass'));
+        return view('bookwhen::class-passes.show', compact('classPasses'));
     }
 }
