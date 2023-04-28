@@ -2,6 +2,8 @@
 
 namespace InShore\Bookwhen\Http\Controllers;
 
+use App\Http\Controllers\Controller;
+
 class LocationController extends Controller
 {
     public function index()
