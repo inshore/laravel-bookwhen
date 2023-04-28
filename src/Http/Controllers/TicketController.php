@@ -3,6 +3,8 @@
 namespace InShore\Bookwhen\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use InShore\Bookwhen\Facades\Bookwhen;
+
 
 class TicketController extends Controller
 {
@@ -13,9 +15,9 @@ class TicketController extends Controller
         return view('bookwhen::tickets.index', compact('tickets'));
     }
 
-    public function show(string $ticketId)
+    public function show(string $eventId)
     {
-        $ticket = Bookwhen::tickets($ticketId);
+        $ticket = Bookwhen::ticket($eventId);
         
         return view('bookwhen::tickets.show', compact('ticket'));
     }
