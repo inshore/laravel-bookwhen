@@ -16,7 +16,7 @@ class EventController extends Controller
 
     public function show(string $eventId)
     {
-        $event = Bookwhen::events($eventId);
+        $event = Bookwhen::event($eventId);
         
         return view('bookwhen::events.show', compact('event'));
     }
