@@ -15,7 +15,7 @@ class ClassPassController extends Controller
 
     public function show(string $classPassId)
     {
-        $event = Bookwhen::classPasses($classPassId);
+        $classPass = Bookwhen::classPasses($classPassId);
         
         return view('bookwhen::class-passes.show', compact('classPass'));
     }
