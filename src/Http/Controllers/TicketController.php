@@ -20,6 +20,8 @@ class TicketController extends Controller
     public function show(string $ticketId)
     {
         $ticket = Bookwhen::ticket($ticketId);
+        var_export($ticket);
+        die();
         
         return view('bookwhen::tickets.show', compact('ticket'));
     }
