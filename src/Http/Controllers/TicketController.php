@@ -10,16 +10,16 @@ class TicketController extends Controller
 {
     public function index()
     {
-        $tickets = Bookwhen::tickets();
+        $tickets = Bookwhen::tickets($eventId);
         var_export($tickets);
         die();
         
         return view('bookwhen::tickets.index', compact('tickets'));
     }
 
-    public function show(string $eventId)
+    public function show(string $ticketId)
     {
-        $ticket = Bookwhen::ticket($eventId);
+        $ticket = Bookwhen::ticket($ticketId);
         
         return view('bookwhen::tickets.show', compact('ticket'));
     }
