@@ -10,7 +10,7 @@ class LocationController extends Controller
 {
     public function index()
     {
-        $elocations = Bookwhen::locations();
+        $locations = Bookwhen::locations();
         
         return view('bookwhen::locations.index', compact('locations'));
     }
@@ -19,6 +19,6 @@ class LocationController extends Controller
     {
         $location = Bookwhen::events($locationId);
         
-        return view('bookwhen::elocations.show', compact('location'));
+        return view('bookwhen::locations.show', compact('location'));
     }
 }
