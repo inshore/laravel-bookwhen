@@ -18,6 +18,8 @@ class LocationController extends Controller
     public function show(string $locationId)
     {
         $location = Bookwhen::location($locationId);
+        var_export($location);
+        die();
         
         return view('bookwhen::locations.show', compact('location'));
     }
