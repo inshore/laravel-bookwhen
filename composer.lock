@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b8c28bca5bd995132abe2b96ed28ccb",
+    "content-hash": "d9612cc12d649a3d30c6f77490b8857b",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -335,16 +335,16 @@
         },
         {
             "name": "inshore/bookwhen",
-            "version": "0.9.4",
+            "version": "0.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inshore/bookwhen.git",
-                "reference": "df65fca3a97492b72d831baa9932696e761e6f3a"
+                "reference": "0521da0d8aa91753d1664a2d34850e7d3604ffad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inshore/bookwhen/zipball/df65fca3a97492b72d831baa9932696e761e6f3a",
-                "reference": "df65fca3a97492b72d831baa9932696e761e6f3a",
+                "url": "https://api.github.com/repos/inshore/bookwhen/zipball/0521da0d8aa91753d1664a2d34850e7d3604ffad",
+                "reference": "0521da0d8aa91753d1664a2d34850e7d3604ffad",
                 "shasum": ""
             },
             "require": {
@@ -392,9 +392,9 @@
             ],
             "support": {
                 "issues": "https://github.com/inshore/bookwhen/issues",
-                "source": "https://github.com/inshore/bookwhen/tree/0.9.4"
+                "source": "https://github.com/inshore/bookwhen/tree/0.9.5"
             },
-            "time": "2023-04-28T09:47:44+00:00"
+            "time": "2023-04-28T10:47:30+00:00"
         },
         {
             "name": "monolog/monolog",
