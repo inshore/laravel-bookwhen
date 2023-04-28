@@ -3,6 +3,8 @@
 namespace InShore\Bookwhen\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use InShore\Bookwhen\Facades\Bookwhen;
+
 
 class ClassPassController extends Controller
 {
@@ -15,7 +17,7 @@ class ClassPassController extends Controller
 
     public function show(string $classPassId)
     {
-        $classPass = Bookwhen::classPasses($classPassId);
+        $classPass = Bookwhen::classPass($classPassId);
         
         return view('bookwhen::class-passes.show', compact('classPass'));
     }
