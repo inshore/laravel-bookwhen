@@ -3,6 +3,7 @@
 namespace InShore\Bookwhen;
 
 use Illuminate\Foundation\Console\AboutCommand;
+use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 class ServiceProvider extends BaseServiceProvider
