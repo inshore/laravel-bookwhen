@@ -4,19 +4,19 @@ namespace InShore\Bookwhen\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
-class EventController extends Controller
+class TicketController extends Controller
 {
     public function index()
     {
-        $events = Bookwhen::events();
+        $tickets = Bookwhen::tickets();
         
-        return view('bookwhen::events.index', compact('events'));
+        return view('bookwhen::tickets.index', compact('tickets'));
     }
 
-    public function show(string $eventId)
+    public function show(string $ticketId)
     {
-        $event = Bookwhen::events($eventId);
+        $ticket = Bookwhen::tickets($ticketId);
         
-        return view('bookwhen::events.show', compact('event'));
+        return view('bookwhen::tickets.show', compact('ticket'));
     }
 }
