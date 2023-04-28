@@ -16,5 +16,5 @@ Route::get('/events', [EventController::class, 'index'])->name('events.index');
 Route::get('/events/{event}', [EventController::class, 'show'])->name('events.show');
 Route::get('/locations', [LocationController::class, 'index'])->name('locations.index');
 Route::get('/locations/{location}', [LocationController::class, 'show'])->name('locations.show');
-Route::get('/tickets{eventId}', [TicketController::class, 'index'])->name('tickets.index');
+Route::get('/tickets/{eventId}', [TicketController::class, 'index'])->name('tickets.index');
 Route::get('/tickets/{ticketId}', [TicketController::class, 'show'])->name('tickets.show');
