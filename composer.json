@@ -8,7 +8,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Inshore\\Bookwhen\\": "src/"
+            "InShore\\Bookwhen\\": "src/"
         }
     },
     "authors": [
