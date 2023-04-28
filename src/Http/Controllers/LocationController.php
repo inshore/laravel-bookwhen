@@ -11,8 +11,8 @@ class LocationController extends Controller
     public function index()
     {
         $locations = Bookwhen::locations();
-        // var_export($locations);
-        // die();
+        var_export(compact($locations));
+        die();
         
         return view('bookwhen::locations.index', 'locations');
     }
