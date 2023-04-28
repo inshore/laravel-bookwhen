@@ -7,6 +7,7 @@ use InShore\Bookwhen\Http\Controllers\EventController;
 use InShore\Bookwhen\Http\Controllers\LocationController;
 use InShore\Bookwhen\Http\Controllers\TicketController;
 
+Route::get('/', [BookwhenController::class, 'index'])->name('index');
 Route::get('/attachments', [AttachmentController::class, 'index'])->name('attachments.index');
 Route::get('/attachments/{attachment}', [AttachmentController::class, 'show'])->name('attachments.show');
 Route::get('/class-passes', [ClassPass::class, 'index'])->name('class-passes.index');
