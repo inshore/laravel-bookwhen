@@ -1,7 +1,7 @@
 <h1>Showing all Tickets</h1>
 
 @forelse ($tickets as $ticket)
-<li><a href="./tickets/{{ $ticket->id }}">{{ $ticket->title }}</a></li>
+<li><a href="./tickes/{{ $ticket->id }}">{{ $ticket->title }}</a></li>
 @empty
     <p> 'No tickets yet' </p>
 @endforelse
