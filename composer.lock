@@ -335,16 +335,16 @@
         },
         {
             "name": "inshore/bookwhen",
-            "version": "0.9.3",
+            "version": "0.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inshore/bookwhen.git",
-                "reference": "3a788368c48192b6620a4eab2c5bff4e790eacbf"
+                "reference": "df65fca3a97492b72d831baa9932696e761e6f3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inshore/bookwhen/zipball/3a788368c48192b6620a4eab2c5bff4e790eacbf",
-                "reference": "3a788368c48192b6620a4eab2c5bff4e790eacbf",
+                "url": "https://api.github.com/repos/inshore/bookwhen/zipball/df65fca3a97492b72d831baa9932696e761e6f3a",
+                "reference": "df65fca3a97492b72d831baa9932696e761e6f3a",
                 "shasum": ""
             },
             "require": {
@@ -392,9 +392,9 @@
             ],
             "support": {
                 "issues": "https://github.com/inshore/bookwhen/issues",
-                "source": "https://github.com/inshore/bookwhen/tree/0.9.3"
+                "source": "https://github.com/inshore/bookwhen/tree/0.9.4"
             },
-            "time": "2023-04-27T15:01:33+00:00"
+            "time": "2023-04-28T09:47:44+00:00"
         },
         {
             "name": "monolog/monolog",
