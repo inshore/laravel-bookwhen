@@ -1,36 +1,35 @@
 {
-    "name": "inshore/laravel-bookwhen",
-    "description": "Bookwhen API SDK providing plug & play access to the Bookwhen booking platform inside you Laravel application.",
-    "type": "package",
-    "require": {
-        "inshore/bookwhen": "^0.9.1"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "InShore\\Bookwhen\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Daniel Mullin",
-            "email": "email@danielmullin.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "config": {
-        "allow-plugins": {
-            "php-http/discovery": true
-        }
-    },
-    "extra": {
-      "laravel": {
-          "providers": [
-              "InShore\\Bookwhen\\ServiceProvider"
-          ],
-          "aliases": {
-              "Bookwhen": "InShore\\Bookwhen\\Facade"
-          }
-      }
-    }
+	"name" : "inshore/laravel-bookwhen",
+	"description" : "Bookwhen API SDK providing plug & play access to the Bookwhen booking platform inside you Laravel application.",
+	"type" : "package",
+	"require" : {
+		"inshore/bookwhen" : "^0.9.5"
+	},
+	"license" : "MIT",
+	"autoload" : {
+		"psr-4" : {
+			"InShore\\Bookwhen\\" : "src/"
+		}
+	},
+	"authors" : [{
+			"name" : "Daniel Mullin",
+			"email" : "email@danielmullin.com"
+		}
+	],
+	"minimum-stability" : "dev",
+	"config" : {
+		"allow-plugins" : {
+			"php-http/discovery" : true
+		}
+	},
+	"extra" : {
+		"laravel" : {
+			"providers" : [
+				"InShore\\Bookwhen\\ServiceProvider"
+			],
+			"aliases" : {
+				"Bookwhen" : "InShore\\Bookwhen\\Facade"
+			}
+		}
+	}
 }
