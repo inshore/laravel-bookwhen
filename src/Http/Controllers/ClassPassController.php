@@ -18,6 +18,8 @@ class ClassPassController extends Controller
     public function show(string $classPassId)
     {
         $classPass = Bookwhen::classPass($classPassId);
+        var_export($classPass);
+        die();
         
         return view('bookwhen::class-passes.show', compact('classPass'));
     }
