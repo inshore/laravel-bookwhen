@@ -3,6 +3,7 @@
 namespace InShore\Bookwhen\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use InShore\Bookwhen\Facades\Bookwhen;
 
 class EventController extends Controller
 {
