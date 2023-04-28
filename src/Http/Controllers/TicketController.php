@@ -11,6 +11,8 @@ class TicketController extends Controller
     public function index()
     {
         $tickets = Bookwhen::tickets();
+        var_export($tickets);
+        die();
         
         return view('bookwhen::tickets.index', compact('tickets'));
     }
