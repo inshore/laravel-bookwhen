@@ -1,7 +1,7 @@
 <h1>Showing all Locations</h1>
 
 @forelse ($locations as $location)
-    <li>{{ $location->addressText }}</li>
+    <li>{{ var_export($location)$location->addressText }}</li>
 @empty
-    <p> 'No events yet' </p>
+    <p> 'No locations yet' </p>
 @endforelse
