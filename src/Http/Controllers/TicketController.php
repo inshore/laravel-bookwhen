@@ -8,7 +8,7 @@ use InShore\Bookwhen\Facades\Bookwhen;
 
 class TicketController extends Controller
 {
-    public function index()
+    public function index($eventId)
     {
         $tickets = Bookwhen::tickets($eventId);
         var_export($tickets);
