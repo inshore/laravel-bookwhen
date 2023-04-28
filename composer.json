@@ -22,5 +22,15 @@
         "allow-plugins": {
             "php-http/discovery": true
         }
+    },
+    "extra": {
+      "laravel": {
+          "providers": [
+              "InShore\\Bookwhen\\ServiceProvider"
+          ],
+          "aliases": {
+              "Debugbar": "InShore\\Bookwhen\\Facade"
+          }
+      }
     }
 }
