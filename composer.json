@@ -29,7 +29,7 @@
               "InShore\\Bookwhen\\ServiceProvider"
           ],
           "aliases": {
-              "Debugbar": "InShore\\Bookwhen\\Facade"
+              "Bookwhen": "InShore\\Bookwhen\\Facade"
           }
       }
     }

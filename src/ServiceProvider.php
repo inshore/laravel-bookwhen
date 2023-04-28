@@ -5,6 +5,7 @@ namespace InShore\Bookwhen;
 use Illuminate\Foundation\Console\AboutCommand;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
+use InShore\Bookwhen\Bookwhen;
 
 class ServiceProvider extends BaseServiceProvider
 {
@@ -13,6 +14,10 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function boot(): void
     {
+        $this->app->bind('bookwhen', function($app) {
+            return new Bookwhen(config('bookwhen.api_key'));
+        });
+
         // About
         AboutCommand::add('Bookwhen', fn () => ['Version' => '1.0.0']);
 
@@ -28,6 +33,7 @@ class ServiceProvider extends BaseServiceProvider
         
         // Views
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'bookwhen');
+        
     }
     
     /**
