@@ -21,6 +21,12 @@ class ServiceProvider extends BaseServiceProvider
                 __DIR__ . '/../config/bookwhen.php' => config_path('bookwhen.php')
             ]);
         }
+        
+        // Routes
+        $this->registerRoutes();
+        
+        // Views
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'bookwhen');
     }
     
     /**
@@ -35,4 +41,26 @@ class ServiceProvider extends BaseServiceProvider
             'bookwhen',
         ];
     }
+    
+    /**
+     * 
+     */
+    protected function registerRoutes()
+    {
+        Route::group($this->routeConfiguration(), function () {
+            $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+        });
+    }
+    
+    /**
+     * 
+     */
+    protected function routeConfiguration(): array
+    {
+        return [
+            'prefix' => config('bookwhen.prefix'),
+            'middleware' => config('bookwhen.middleware'),
+        ];
+    }
+    
 }
