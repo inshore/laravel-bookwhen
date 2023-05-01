@@ -17,6 +17,7 @@
 		}
 	],
 	"minimum-stability" : "dev",
+	"prefer-stable": true,
 	"config" : {
 		"allow-plugins" : {
 			"php-http/discovery" : true
@@ -32,8 +33,11 @@
 			}
 		}
 	},
-        "scripts": {
-    		"phpcsfixer": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix src",
-    		"phpunit": "vendor/bin/phpunit"
-  	}
+	"scripts" : {
+		"phpcsfixer" : "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix src",
+		"phpunit" : "vendor/bin/phpunit"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^10.1"
+	}
 }
