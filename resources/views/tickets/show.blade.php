@@ -1,0 +1,1 @@
+<h1>{{ $ticket->title }}</h1>
