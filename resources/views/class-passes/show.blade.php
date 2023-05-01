@@ -1,0 +1,1 @@
+<h1>{{ $classPass->title }}</h1>
