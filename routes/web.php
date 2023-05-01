@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use InShore\Bookwhen\Http\Controllers\AttachmentController;
+use InShore\Bookwhen\Http\Controllers\BookwhenController;
 use InShore\Bookwhen\Http\Controllers\ClassPassController;
 use InShore\Bookwhen\Http\Controllers\EventController;
 use InShore\Bookwhen\Http\Controllers\LocationController;
