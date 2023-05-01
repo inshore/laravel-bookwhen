@@ -236,25 +236,6 @@ $event = Bookwhen::event('ev-smij-20200530100000');
 
 ```
 
-
-``` php
-
-// Returns the event for the provided event ID.
-
-$event = Bookwhen::event(eventId: 'ev-smij-20200530100000', includeLocation: true, includeTickets: true);
-
-```
-
-###Events###
-
-``` php
-
-// Fetch events accessible by the API token.
-
-$events = Bookwhen::events());
-
-```
-
 **Filters**
 
 The event list can be filtered as per the api documentation
@@ -273,13 +254,11 @@ simply pass boolean true for the relationship that is required.
 
 for example to retrieve the event with its location and tickets.
 
-
-
 ``` php
 
-// Fetch events accessible by the API token.
+// Returns the event for the provided event ID.
 
-$events = Bookwhen::events(location: true, includeTickets: true);));
+$event = Bookwhen::event(eventId: 'ev-smij-20200530100000', includeLocation: true, includeTickets: true);
 
 ```
 
