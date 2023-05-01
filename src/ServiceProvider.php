@@ -19,7 +19,7 @@ class ServiceProvider extends BaseServiceProvider
         AboutCommand::add('Bookwhen', fn () => ['Version' => '1.0.0']);
 
         // Bind
-        $this->app->bind('bookwhen', function($app) {
+        $this->app->bind('bookwhen', function ($app) {
             return new Bookwhen(config('bookwhen.api_key'));
         });
 
@@ -29,15 +29,15 @@ class ServiceProvider extends BaseServiceProvider
                 __DIR__ . '/../config/bookwhen.php' => config_path('bookwhen.php')
             ]);
         }
-        
+
         // Routes
         $this->registerRoutes();
-        
+
         // Views
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'bookwhen');
-        
+
     }
-    
+
     /**
      * Get the services provided by the provider.
      *
@@ -50,9 +50,9 @@ class ServiceProvider extends BaseServiceProvider
             'bookwhen',
         ];
     }
-    
+
     /**
-     * 
+     *
      */
     protected function registerRoutes()
     {
@@ -60,9 +60,9 @@ class ServiceProvider extends BaseServiceProvider
             $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
         });
     }
-    
+
     /**
-     * 
+     *
      */
     protected function routeConfiguration(): array
     {
@@ -71,5 +71,5 @@ class ServiceProvider extends BaseServiceProvider
             'middleware' => config('bookwhen.middleware'),
         ];
     }
-    
+
 }
