@@ -427,7 +427,7 @@ $ composer phpunit
 
 ## Contributing
 
-Please see [https://github.com/inshore/laravel-bookwhen/blob/develop/CONTRIBUTING.md](https://github.com/inshore/laravel-bookwhen/blob/develop/CONTRIBUTING.md) for details.
+Please see [https://github.com/inshore/laravel-bookwhen/blob/main/CONTRIBUTING.md](https://github.com/inshore/laravel-bookwhen/blob/main/CONTRIBUTING.md) for details.
 
 ## Support
 
@@ -444,11 +444,9 @@ If you require assistance with this package or implementing in your own project 
 - Daniel Mullin inshore@danielmullin.com
 - Brandon Lubbehusen inshore@danielmullin.com
 
-This package was heavily influenced by Nuno Maduro and the https://github.com/openai-php/client package.
-
 ## License
 
 MIT
 
-[https://github.com/inshore/laravel-bookwhen/blob/master/LICENSE.md](https://github.com/inshore/laravel-bookwhen/blob/master/LICENSE.md)
+[https://github.com/inshore/laravel-bookwhen/blob/main/LICENSE.md](https://github.com/inshore/laravel-bookwhen/blob/main/LICENSE.md)
 
