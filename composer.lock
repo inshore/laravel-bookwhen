@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9612cc12d649a3d30c6f77490b8857b",
+    "content-hash": "5c515d482bc9b8454f4556f60b47bba9",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -335,16 +335,16 @@
         },
         {
             "name": "inshore/bookwhen",
-            "version": "0.9.5",
+            "version": "0.9.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inshore/bookwhen.git",
-                "reference": "0521da0d8aa91753d1664a2d34850e7d3604ffad"
+                "reference": "db667ca009de7585c4ec845093be395dfaa7d18b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inshore/bookwhen/zipball/0521da0d8aa91753d1664a2d34850e7d3604ffad",
-                "reference": "0521da0d8aa91753d1664a2d34850e7d3604ffad",
+                "url": "https://api.github.com/repos/inshore/bookwhen/zipball/db667ca009de7585c4ec845093be395dfaa7d18b",
+                "reference": "db667ca009de7585c4ec845093be395dfaa7d18b",
                 "shasum": ""
             },
             "require": {
@@ -392,9 +392,9 @@
             ],
             "support": {
                 "issues": "https://github.com/inshore/bookwhen/issues",
-                "source": "https://github.com/inshore/bookwhen/tree/0.9.5"
+                "source": "https://github.com/inshore/bookwhen/tree/0.9.11"
             },
-            "time": "2023-04-28T10:47:30+00:00"
+            "time": "2023-05-01T06:45:21+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -504,12 +504,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/discovery.git",
-                "reference": "922d44b7aafba60e0fbf420e337b3842b4974fd0"
+                "reference": "5e1ace82a771f01396680704d59cb63ebc1c84e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/discovery/zipball/922d44b7aafba60e0fbf420e337b3842b4974fd0",
-                "reference": "922d44b7aafba60e0fbf420e337b3842b4974fd0",
+                "url": "https://api.github.com/repos/php-http/discovery/zipball/5e1ace82a771f01396680704d59cb63ebc1c84e6",
+                "reference": "5e1ace82a771f01396680704d59cb63ebc1c84e6",
                 "shasum": ""
             },
             "require": {
@@ -575,7 +575,7 @@
                 "issues": "https://github.com/php-http/discovery/issues",
                 "source": "https://github.com/php-http/discovery/tree/1.x"
             },
-            "time": "2023-04-26T16:23:42+00:00"
+            "time": "2023-04-28T12:44:47+00:00"
         },
         {
             "name": "psr/http-client",
