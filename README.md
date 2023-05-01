@@ -6,7 +6,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/inshore/laravel-bookwhen.svg?style=flat-square)](https://scrutinizer-ci.com/g/inshore/laravel-bookwhen)
 [![Total Downloads](https://img.shields.io/packagist/dt/inshore/laravel-bookwhen.svg?style=flat-square)](https://packagist.org/packages/inshore/laravel-bookwhen)
 
-Larabel SDK kit for the Bookwhen API.
+Laravel SDK kit for the Bookwhen API.
 
 https://www.bookwhen.com
 
