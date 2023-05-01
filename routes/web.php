@@ -8,7 +8,7 @@ use InShore\Bookwhen\Http\Controllers\EventController;
 use InShore\Bookwhen\Http\Controllers\LocationController;
 use InShore\Bookwhen\Http\Controllers\TicketController;
 
-Route::prefix(config('bookwhen.prefix'))->group(function () {
+//Route::prefix(config('bookwhen.prefix'))->group(function () {
     Route::get('/', [BookwhenController::class, 'index'])->name('index');
     Route::get('/attachments', [AttachmentController::class, 'index'])->name('attachments.index');
     Route::get('/attachments/{attachment}', [AttachmentController::class, 'show'])->name('attachments.show');
@@ -20,4 +20,4 @@ Route::prefix(config('bookwhen.prefix'))->group(function () {
     Route::get('/locations/{location}', [LocationController::class, 'show'])->name('locations.show');
     Route::get('/event-tickets/{eventId}', [TicketController::class, 'index'])->name('tickets.index');
     Route::get('/tickets/{ticketId}', [TicketController::class, 'show'])->name('tickets.show');
-});
+//});
